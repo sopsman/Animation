@@ -1,0 +1,101 @@
+body {
+    background: blue;
+}
+
+.boxbox {
+    background-color: red;
+    height: 200px;
+    width: 400px;
+    transition: all;
+
+}
+
+.image {
+    color: black;
+    height: 100px;
+    width: 100px;
+    
+}
+
+.image2 {
+    height: 100px;
+    width: 100px;
+}
+
+.image3 {
+    height: 100px;
+    width: 100px;
+}
+
+.boxbox:hover .image {
+    animation: anime 3s forwards ease-in infinite;
+
+}
+.boxbox:hover .image2 {
+    animation: anime 4s forwards ease-in infinite;
+}
+.boxbox:hover .image3 {
+    animation: anime 5s forwards ease-in infinite;
+}
+
+.number {
+    transition: all;
+    padding: auto;
+    font-weight: 900;
+    display: flex;
+    background-color: white;
+    width: 400px;
+    height: 200px
+
+}
+
+.number1 {
+    width: 100px;
+    height: 100px;
+    color: blue;
+    background-color: brown;
+    font-size: 100px;
+    padding: auto;
+}
+.number:hover .number1 {
+    animation: anime 3s forwards ease-in infinite;
+}
+
+.number2 {
+    width: 100px;
+    height: 100px;
+    color: red;
+    background-color: black;
+    font-size: 100px;
+}
+
+.number:hover .number2 {
+    animation: anime 4s forwards ease-in infinite;
+}
+
+.number3 {
+    width: 100px;
+    height: 100px;
+    color: firebrick;
+    background-color: green;
+    font-size: 100px;
+}
+
+.number:hover .number3 {
+animation: anime 5s forwards ease-in infinite;
+}
+
+@keyframes anime {
+    0% {
+        transform: translateX(0) ;
+    }
+    100% {
+        transform: translateY(100%) ;
+    }
+    
+     {
+        
+    }
+
+}
+    
